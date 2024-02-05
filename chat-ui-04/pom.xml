@@ -3,17 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hanyu</groupId>
+        <artifactId>QueYan</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.hanyu</groupId>
-    <artifactId>QueYan</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>chat-ui-01</module>
-        <module>chat-ui-02</module>
-        <module>chat-ui-03</module>
-        <module>chat-ui-04</module>
-    </modules>
+    <artifactId>chat-ui-04</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
